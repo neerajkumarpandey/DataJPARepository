@@ -22,7 +22,7 @@ public class ProductController {
 	public ProductController(ProductService service) {
 		this.service = service;
 	}
-	//testing
+	//testing main branch
 	@GetMapping("/products")
 	public List<Product> getAllProducts() {
 		return service.getAllProducts();
